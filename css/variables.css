@@ -1,0 +1,8 @@
+:root {
+    --font-size_menu: 18px;
+    --font-weight_menu: 600;
+    --side-padding-container: 25px;
+    --welcome-left: calc(var(--side-padding-container) + 36px);
+    --orange: #ff9900;
+    --main_border-radius: 15px;
+}

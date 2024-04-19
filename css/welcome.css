@@ -1,0 +1,43 @@
+.welcome .container {
+    position: relative;
+    /* height: 600px; */
+}
+
+.welcome .container img {
+    width: 100%;
+}
+
+.welcome .container h2 {
+    position: absolute;
+    top: 40px;
+    left: var(--welcome-left);
+    font-size: 70px;
+    font-weight: 800;
+    max-width: 793px;
+    /* line-height: 85px; */
+    color: #fff;
+    /* margin:0; */
+}
+
+.welcome .container p {
+    position: absolute;
+    top: 240px;
+    left: var(--welcome-left);
+    width: 553px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.welcome a {
+    position: absolute;
+    padding: 13.5px 26px;
+    background: var(--orange);
+    bottom: 40px;
+    left: var(--welcome-left);
+    border-radius: var(--main_border-radius);
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    outline: solid 1px red;
+}
+
+.container {
+    display: block;
+    max-width: 1280px;
+    padding: 0 var(--side-padding-container);
+    margin: 0 auto;
+
+}
+
+.header,
+section {
+    margin-bottom: 60px;
+}
