@@ -5,6 +5,7 @@
 
 .welcome .container img {
     width: 100%;
+    display: block;
 }
 
 .welcome .container h2 {
