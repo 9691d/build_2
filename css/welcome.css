@@ -33,7 +33,7 @@
 
 .welcome a {
     position: absolute;
-    padding: 13.5px 26px;
+    padding: 13.5px 26.5px;
     background: var(--orange);
     bottom: 40px;
     left: var(--welcome-left);

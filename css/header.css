@@ -24,3 +24,7 @@
     font-size: var(--font-size_menu);
     font-weight: var(--font-weight_menu);
 }
+
+.header nav a:hover{
+    color:var( --orange) ;
+}
