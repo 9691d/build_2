@@ -1,11 +1,13 @@
 .about_us_wrapper {
-    display: flex;
-    gap: 30px;
+    /* display: flex;
+    gap: 30px; */
 
 }
 
 .left_about_us {
     position: relative;
+    float: left;
+    margin-right: 30px;
 }
 
 .left_about_us img {
@@ -13,11 +15,12 @@
 }
 
 .dark_background_about {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: absolute;
+
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -37,7 +40,7 @@
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    padding: 19px 38px;
+    padding: 16px 35.5px;
     border: 3px solid var(--orange);
     border-radius: var(--main_border-radius);
 }
