@@ -1,7 +1,7 @@
 .about_us_wrapper {
     /* display: flex;
     gap: 30px; */
-
+    min-height: 413px;
 }
 
 .left_about_us {
@@ -43,4 +43,8 @@
     padding: 16px 35.5px;
     border: 3px solid var(--orange);
     border-radius: var(--main_border-radius);
+}
+
+.right_about_us p {
+    line-height: 20px;
 }
